@@ -1,0 +1,18 @@
+{
+  "name": "cdac_flashcards",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
