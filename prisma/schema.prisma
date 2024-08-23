@@ -1,0 +1,24 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Card {
+  id     String @id @default(auto()) @map("_id") @db.ObjectId
+  back   String
+  front  String
+  deck   Deck   @relation(fields: [deckId], references: [id])
+  deckId String @db.ObjectId
+}
+
+model Deck {
+  id     String @id @default(auto()) @map("_id") @db.ObjectId
+  title  String
+  type   String?
+  cards  Card[]
+  userId String?
+}

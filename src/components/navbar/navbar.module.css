@@ -1,0 +1,131 @@
+
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    padding: 1rem;
+/*-------- Makes the navbar sticky--------------- */
+    position: sticky;
+    top: 0;           /* Sticks to the top of the viewport */
+    z-index: 1000;
+  }
+
+  .navbar-start,
+  .navbar-center
+  {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .navbar-start{
+    margin-left: 80px;
+  }
+  .navbar-center{
+    margin-right: 80px;
+
+  }
+
+  .logo {
+    height: 40px; /* Adjust the height as needed */
+    margin-right: 0.5rem; /* Space between the logo and the text */
+  }
+
+
+
+
+
+
+
+
+  .menu {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+
+  }
+
+  .menu li {
+    margin: 0 1rem;
+
+  }
+
+  .menu-horizontal {
+    display: flex;
+    margin-right: 5rem;
+  }
+
+  .menu-horizontal li {
+    margin-right: 1rem;
+  }
+
+  .menu-sm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-sm li {
+    margin-bottom: 0.5rem;
+  }
+
+  .p-2 {
+    padding: 0.5rem;
+  }
+
+  .mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .text-xl {
+    font-size: 1.25rem;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  @media (min-width: 1024px) {
+    .lg\:hidden {
+      display: none;
+    }
+    .lg\:flex {
+      display: flex;
+    }
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+    background-color: #ff8700;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+
+  .btn-ghost {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .h-5 {
+    height: 1.25rem;
+  }
+
+  .w-5 {
+    width: 1.25rem;
+  }
+
+  .z-\[1\] {
+    z-index: 1;
+  }
