@@ -36,7 +36,7 @@ const Navbar = () => {
           />
         <Link href="/" className={`${styles.btn} ${styles['btn-ghost']} ${styles['text-xl']}  flex items-center}`}>
 
-          <span>CDAC FLASHCARD</span>
+          <span>C-DAC FLASHCARD</span>
 
         </Link>
       </div>

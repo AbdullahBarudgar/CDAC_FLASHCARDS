@@ -9,15 +9,15 @@ import Link from "next/link";
             <div className="w-full lg:w-1/2 p-8">
               <h2 className="text-2xl text-gray-900 font-bold mb-6">Get in touch</h2>
               <p className="text-gray-600 mb-8">
-                Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt integer elementum id sem. Arcu sed malesuada et magna.
+              Feel free to reach out to us at any time. We are here to assist you with any questions or concerns you may have. Below are our contact details:
               </p>
               <div className="flex items-center mb-4">
                 <svg className="w-6 h-6 text-gray-400 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 11c3.866 0 7-3.134 7-7S15.866 1 12 1 5 4.134 5 8s3.134 7 7 7zm0 0v12"></path>
                 </svg>
                 <div>
-                  <p className="text-gray-600">545 Mavis Island</p>
-                  <p className="text-gray-600">Chicago, IL 99191</p>
+                  <p className="text-gray-600">South Delhi</p>
+                  <p className="text-gray-600">Delhi, India 110062</p>
                 </div>
               </div>
               <div className="flex items-center mb-4">
@@ -25,7 +25,7 @@ import Link from "next/link";
                   <path strokeLinecap="round" strokeLinejoin="round" d="M22 12h-5M16 6h6M18 18h4M10 11l2 2m0-2l-2 2M6 12l2 2m0-2L6 14m12 6H6m12-12H6"></path>
                 </svg>
                 <div>
-                  <p className="text-gray-600">+1 (555) 234-5678</p>
+                  <p className="text-gray-600">+919001299887</p>
                 </div>
               </div>
               <div className="flex items-center mb-4">
@@ -33,7 +33,7 @@ import Link from "next/link";
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 2v6h6"></path>
                 </svg>
                 <div>
-                  <p className="text-gray-600">hello@example.com</p>
+                  <p className="text-gray-600">gamingdaddy7864@gmail.com</p>
                 </div>
               </div>
             </div>

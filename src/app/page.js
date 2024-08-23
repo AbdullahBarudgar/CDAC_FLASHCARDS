@@ -7,12 +7,12 @@ export default function Home() {
         {/* Main Header Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Flashcards for CDAC students
+            Flashcards for C-DAC students
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            CDAC Flashcards is an interactive study tool with pre-built and
+            C-DAC Flashcards is an interactive study tool with pre-built and
             custom flashcards. Go digital, reduce your carbon footprint, and
-            study sustainably for the CDAC Examination
+            study sustainably for the C-DAC Examination
           </p>
           <div className="flex justify-center">
             {/* Example button for register (uncomment and style as needed) */}
@@ -41,7 +41,7 @@ export default function Home() {
               </p>
               <Link href="/prebuilt" className="text-indigo-600 hover:text-indigo-800">
                   Learn More
-                
+
               </Link>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg shadow-md">
@@ -55,7 +55,7 @@ export default function Home() {
               </p>
               <Link href="/customcard" className="text-indigo-600 hover:text-indigo-800">
                   Learn More
-                
+
               </Link>
             </div>
           </div>
@@ -75,7 +75,7 @@ export default function Home() {
               </h3>
               <p className="text-gray-600">
                 Research shows that digital flashcards supercharge retention and
-                performance, making your CDAC CCEE exam prep more effective than
+                performance, making your C-DAC CCEE exam prep more effective than
                 ever.
               </p>
             </div>
