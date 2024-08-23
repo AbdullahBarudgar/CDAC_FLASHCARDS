@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white py-16">
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 via-purple-50 to-blue-100 py-16">
       <div className="container mx-auto px-4">
         {/* Main Header Section */}
         <div className="text-center mb-16">
@@ -24,7 +24,7 @@ export default function Home() {
       </div>
 
       {/* Second Header Section */}
-      <section className="bg-white py-16">
+      <section className="bg-gradient-to-b from-blue-50 via-purple-50 to-blue-100 py-4">
         <div className="container mx-auto px-4">
           <h2 className="text-gray-900 text-3xl font-bold text-center mb-12">
             Key Features
@@ -41,7 +41,7 @@ export default function Home() {
               </p>
               <Link href="/prebuilt" className="text-indigo-600 hover:text-indigo-800">
                   Learn More
-                
+
               </Link>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg shadow-md">
@@ -55,7 +55,7 @@ export default function Home() {
               </p>
               <Link href="/customcard" className="text-indigo-600 hover:text-indigo-800">
                   Learn More
-                
+
               </Link>
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function Home() {
       </section>
 
       {/* Third Header Section */}
-      <section className="bg-white py-16">
+      <section className="bg-gradient-to-b from-blue-50 via-purple-50 to-blue-100 py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-gray-900 text-3xl font-bold text-center mb-12">
             Our Vision

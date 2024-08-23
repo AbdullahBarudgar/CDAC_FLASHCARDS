@@ -52,7 +52,7 @@ export default function CustomCardPage() {
   };
 
   return (
-    <div className="bg-white py-12">
+    <div className="bg-gradient-to-b from-blue-50 via-purple-50 to-blue-100 py-12">
       <div className="container mx-auto px-4">
         <h1 className="text-5xl font-extrabold text-center text-gray-800 mb-12">Your Custom Decks</h1>
 

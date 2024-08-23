@@ -30,7 +30,7 @@
   }
 
   .logo {
-    height: 40px; /* Adjust the height as needed */
+    /* Adjust the height as needed */
     margin-right: 0.5rem; /* Space between the logo and the text */
   }
 
@@ -110,6 +110,7 @@
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
+margin-left: -50px;
   }
 
   .btn-ghost {
