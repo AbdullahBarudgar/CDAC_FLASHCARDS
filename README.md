@@ -33,17 +33,20 @@ With its responsive design, students can access the application from anywhere, a
 
 ### Frontend
 
-* Built with React.js for a seamless user experience
-* Styled with Bootstrap/Tailwind CSS for a modern and responsive design
+* Built with Next.js for a seamless user experience
+* Styled with Custom CSS/Tailwind CSS for a modern and responsive design
 
 ### Backend
 
-* Powered by Node.js with Express.js for efficient server-side logic
+* Powered by Node.js for efficient server-side logic
 
 ### Database
 
 * MongoDB provides a scalable and flexible database management system
-
+* ORM: Database interactions via code.
+* Clerk: User authentication.
+* Prisma: Efficient MongoDB queries.
+  
 ## Contributing
 
 Want to contribute to the project? Fork the repository and submit a pull request!
