@@ -22,14 +22,21 @@ const Navbar = () => {
       alert("im user") // Redirect to sign-in if not logged in
       return;
     }
-  
+
   }, []);
   return (
     <div className={`${styles.navbar} ${styles.nav}`}>
       <div className={styles['navbar-start']}>
+      <Image
+            src="/cdac_logo_website_flashcard.png" // Path to your logo image
+            alt="Logo"
+            width={120} // Adjust width as needed
+            height={150} // Adjust height as needed
+            className="mr-2" // Add margin to the right to separate text and logo
+          />
+        <Link href="/" className={`${styles.btn} ${styles['btn-ghost']} ${styles['text-xl']}  flex items-center}`}>
 
-        <Link href="/" className={`${styles.btn} ${styles['btn-ghost']} ${styles['text-xl']}`}>
-CDAC FLASHCARDS
+          <span>CDAC FLASHCARD</span>
 
         </Link>
       </div>
@@ -51,7 +58,7 @@ CDAC FLASHCARDS
             </Link>
           </li>
           <li>
-            {user && 
+            {user &&
               <Link href="/mydecks">
              My cards
             </Link>
