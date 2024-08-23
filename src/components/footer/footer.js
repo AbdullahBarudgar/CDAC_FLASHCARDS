@@ -8,9 +8,9 @@ const Footer = () => {
     >
       <aside>
         <p className={styles["font-bold"]}>
-          CDAC Flashcards Online Platform
+          C-DAC Flashcards Online Platform
           <br />
-          EmpoweringCDAC Aspirants with Personalized, Sustanable and Dynamic
+          Empowering C-DAC Aspirants with Personalized, Sustanable and Dynamic
           Learning Tool
         </p>
         <p>Copyright © {new Date().getFullYear()} - All right reserved</p>

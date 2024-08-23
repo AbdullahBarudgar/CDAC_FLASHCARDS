@@ -15,7 +15,7 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen p-8 bg-gradient-to-b from-blue-50 via-purple-50 to-blue-100 text-gray-800">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-3xl font-extrabold mb-6 text-center text-blue-700">CDAC's Post Graduate Diploma courses are specialized programs designed to provide in-depth knowledge and practical skills</h1>
+        <h1 className="text-3xl font-extrabold mb-6 text-center text-blue-700">C-DAC's Post Graduate Diploma courses are specialized programs designed to provide in-depth knowledge and practical skills</h1>
         <h2 className="text-lg mb-10 text-center text-gray-600">
           Explore your course subjects...
         </h2>

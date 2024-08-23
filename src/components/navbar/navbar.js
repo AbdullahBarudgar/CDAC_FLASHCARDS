@@ -123,7 +123,7 @@ const Navbar = () => {
         />
 
         <Link href="/" className={`${styles.btn} ${styles['btn-ghost']} ${styles['text-xl']}`}>
-          CDAC FLASHCARDS
+          C-DAC FLASHCARD
         </Link>
       </div>
       <div className={`${styles['navbar-center']} ${styles['hidden']} ${styles['lg:flex']}`}>
