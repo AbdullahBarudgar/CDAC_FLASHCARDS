@@ -1,12 +1,12 @@
+const { purge } = require('tailwindcss/stubs/defaultConfig.stub');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
+  purge: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  purge: ['./pages/**/*.js', './components/**/*.js', './src/**/*.jsx'],
-
   theme: {
     extend: {
       backgroundImage: {
