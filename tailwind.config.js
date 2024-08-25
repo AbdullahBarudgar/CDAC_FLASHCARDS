@@ -5,6 +5,8 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  purge: ['./pages/**/*.js', './components/**/*.js', './src/**/*.jsx'],
+
   theme: {
     extend: {
       backgroundImage: {
