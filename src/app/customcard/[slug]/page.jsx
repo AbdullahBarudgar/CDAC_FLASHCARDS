@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import styles from './singlepost.module.css'
 import { Suspense } from 'react';
-import PostUser from '@/components/postUser/postUser';
+// import PostUser from '@/components/postUser/postUser';
 import { getPost } from '@/library/data';
 
 
@@ -33,7 +33,7 @@ const SinglePostPage = async ({params}) => {
         <div className={styles.details}>
           {post && (
             <Suspense fallback={<div>loading.....</div>}>
-            <PostUser userId= {post.userId}/> 
+            <PostUser userId= {post.userId}/>
             </Suspense>)}
         <div className={styles.detailText}>
           <span className={styles.detailTitle}>Published</span>
@@ -46,5 +46,5 @@ const SinglePostPage = async ({params}) => {
       </div>
     </div>;
   };
-  
+
   export default SinglePostPage;
